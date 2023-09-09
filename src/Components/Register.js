@@ -29,7 +29,7 @@ const Register = () => {
 
     localStorage.setItem("users", JSON.stringify(existingUsers));
 
-    navigate("/");
+    navigate("/EmployeesDetails");
     alert("Account is created");
   };
 

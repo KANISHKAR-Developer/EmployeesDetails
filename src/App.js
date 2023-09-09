@@ -11,7 +11,7 @@ const App = () => {
     <div className="back">
       <Router>
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/EmployeesDetails" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/employeeslist" element={<EmployeesList />} />
           <Route path="/employeedetails/:id" element={<EmployeeDetails />} />
